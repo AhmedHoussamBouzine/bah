@@ -11,8 +11,22 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Interpreter interpreter = new Interpreter();
+        StringBuilder output = new StringBuilder();
 
-        System.out.println("Welcome to your custom programming language!");
+        // Initial text
+        output.append("Hi there!\r\n\r\n");
+        output.append("\r\nBah is a simple programming language implemented to explore and understand how a programming language works, specifically focusing on the Lexer, Parser, and Interpreter components.\r\n\r\n");
+
+        // ASCII Art with red color
+        output.append("\u001B[31m"); // Red color
+        output.append(" ____       _            \r\n");
+        output.append("||   \\\\    /_\\    ||   ||\r\n");
+        output.append("||   //   // \\\\   ||   ||\r\n");
+        output.append("||===|   ||===||  ||===||\r\n");
+        output.append("||   \\\\  ||   ||  ||   ||\r\n");
+        output.append("||___//  ||   ||  ||   ||\r\n");
+        output.append("\u001B[0m"); // Reset color
+        System.out.println(output.toString());
         System.out.println("Type 'exit' to quit.");
 
         while (true) {
@@ -43,7 +57,5 @@ public class Main {
                 System.out.println("Error: " + e.getMessage());
             }
         }
-
-        System.out.println("Goodbye!");
     }
 }
