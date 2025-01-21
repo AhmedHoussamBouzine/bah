@@ -1,4 +1,4 @@
-# Bah - A Simple Programming Language
+# Bah - A Simple Programming Language Implementation
 
 Bah is a simple programming language implemented to explore and understand how a programming language works, specifically focusing on the Lexer, Parser, and Interpreter components.
 
