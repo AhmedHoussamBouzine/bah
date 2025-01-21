@@ -1,6 +1,9 @@
 # Bah - A Simple Programming Language Implementation
 
-This project is my personal learning journey into programming language design and implementation. Through building Bah, I'm exploring the fundamental concepts of how programming languages work under the hood.
+> This is an experimental project focused on learning language implementation concepts.
+
+Bah is a simple programming language implemented to explore and understand how a programming language works, specifically focusing on the Lexer, Parser, and Interpreter components.
+
 ## How It Works
 
 ### Lexical Analysis
