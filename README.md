@@ -22,5 +22,3 @@ The Interpreter walks through the AST and evaluates its nodes:
 
 1. Assignments: Stores the variables in an environment map.
 2. Expressions: Computes the results using the operators and values provided.
-
-This project is a learning exercise and demonstrates the foundational principles of programming language implementation.
